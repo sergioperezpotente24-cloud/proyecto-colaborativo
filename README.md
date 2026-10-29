@@ -10,6 +10,9 @@ Proyecto colaborativo
 
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Mi archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
@@ -137,8 +140,7 @@ Proyecto colaborativo
                             <div class="mb-3">
                                 <label for="valoracion"
                                        class="form-label">
-                                    ¿Qué opinas de las películas
-                                    de Studio Ghibli?
+                                    ¿Cuales son tus canciones favoritas?
                                 </label>
 
                                 <textarea
@@ -146,30 +148,12 @@ Proyecto colaborativo
                                     id="valoracion"
                                     name="valoracion"
                                     rows="4"
-                                    placeholder="Escribe aquí tu opinión..."
-                                    required></textarea>
-                            </div>
-
-                            <!-- Recomendación -->
-                            <div class="mb-4">
-                                <label for="recomendar"
-                                       class="form-label">
-                                    ¿Recomendarías Studio Ghibli
-                                    a otras personas?
-                                </label>
-
-                                <select
-                                    class="form-select"
-                                    id="recomendar"
-                                    name="recomendar"
+                                    placeholder="Escribe aquí tus canciones..."
                                     required>
-
-                                    <option value="si">Sí</option>
-                                    <option value="no">No</option>
-                                    <option value="talvez">Tal vez</option>
-
-                                </select>
+                                </textarea>
                             </div>
+
+                
 
                             <!-- Botón -->
                             <div class="d-grid">
@@ -188,8 +172,8 @@ Proyecto colaborativo
                 <!-- GIF -->
                 <div class="text-center mt-4">
                     <img
-                        src=""
-                        alt="GIF de Studio Ghibli"
+                        src="https://media.es.wired.com/photos/66ce1ed3e03cd1c5d0f2f9bc/16:9/w_2560%2Cc_limit/1422040059"
+                        alt="foto musica"
                         class="img-fluid rounded-4 shadow"
                         style="max-width: 350px;">
                 </div>
@@ -201,14 +185,9 @@ Proyecto colaborativo
     <!-- Pie de página -->
     <footer class="bg-success text-white text-center py-3">
         <p class="mb-0">
-            Studio Ghibli - Formulario de opinión
+            Gusto de Musica - Formulario de opinión
         </p>
     </footer>
-
-
-
-
-
 
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
