@@ -132,3 +132,56 @@ footer {
     }
 }
 
+
+
+/* Estilo general */
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/* Menú */
+nav {
+    background-color: black;
+}
+
+/* Contenido */
+main {
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Título principal */
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+/* Títulos secundarios */
+h2 {
+    color: darkblue;
+    margin-top: 20px;
+}
+
+/* Párrafos */
+p {
+    font-size: 16px;
+}
+
+/* Listas */
+li {
+    margin: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
