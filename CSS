@@ -182,6 +182,77 @@ footer {
     padding: 15px;
 }
 
+<!--INICIO-->
+
+.portada {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.logo-banda {
+    width: 100%;
+    max-width: 650px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+.texto-inicio {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+ .imagen-principal {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    }
+
+body {
+    background-color: #030303;
+    color: white;
+    margin: 0;
+}
+
+.navbar {
+    border-bottom: 2px solid #444444;
+}
+
+.card {
+    border: 1px solid transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+    border-color: white;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
 
 
 
