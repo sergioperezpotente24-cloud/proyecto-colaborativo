@@ -153,6 +153,14 @@
                                 </p>
                             </div>
                         </div>
+            </div>
+            <div class="col-12 col-lg-3 border border-dark p-2">
+                <div class="card h-100 shadow-sm" style="max-width:22rem;">
+                    <img src="img/reggae.jpg" class="card-img-top" alt="Imagen representativa de Reggaeton">
+                    <div class="card-body">
+                        <h5 class="card-title">Reggaeton</h5>
+                        <p class="card-text">Ritmos tranquilos, bajos marcados y raíces jamaicanas.</p>
+                        <a href="https://es.wikipedia.org/wiki/Reggae" class="btn btn-success" target="_blank" rel="noopener noreferrer">Más sobre este género</a>
                     </div>
 
                     <div class="col-12 col-md-6 col-lg-4">
